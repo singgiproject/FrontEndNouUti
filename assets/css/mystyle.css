@@ -1,0 +1,30 @@
+/*FONT FACE*/
+@font-face{
+	font-family: poppins;
+	src:url('../fonts/Poppins-Regular.ttf')format('truetype');
+}
+@font-face{
+	font-family: open-sans;
+	src:url('../fonts/OpenSans-Regular.ttf')format('truetype');
+}
+@font-face{
+	font-family: viga;
+	src:url('../fonts/Viga-Regular.ttf')format('truetype');
+}
+@font-face{
+	font-family: roboto;
+	src:url('../fonts/RobotoCondensed-Regular.ttf')format('truetype');
+}
+/*END FONT FACE*/
+
+*{
+	font-family: poppins !important;
+}
+
+/*style banner*/
+.img-hero img{
+	width: 300px;
+	margin-top: -20px;
+	padding: 10px;
+}
+/*end style banner*/
